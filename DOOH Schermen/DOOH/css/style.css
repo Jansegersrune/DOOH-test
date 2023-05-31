@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A330B6;
+    background-image: url('../img/Purple.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 100px;
+    background-color: #DC077A;opacity: 75%;;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .container {
+            padding: 0 20px;
+        }
+
+        .button {
+            padding: 20px 80px;
+            font-size: 24px;
+        }
+    }
+
+   
